@@ -1,7 +1,36 @@
 /* 
   HEADER
 */
+.header-speaker-view,
+.header-invert{
+  background-color: #4A4A4A;
+  color: white;
+  padding: 4px 4px;
+  margin: 3px;
+  border-radius: 5px;
+  margin-bottom: 40px;
+}
 
+.header-speaker-view:hover,
+.header-invert:hover{
+  background-color: darkgray;
+  cursor: pointer;
+}
+
+/* Speaker View */
+.header-speaker-view i{
+  margin-right: 3px;
+}
+
+.header-speaker-view p{
+  font-size: .9rem;
+}
+
+/* Invert */
+.header-invert i{
+  transform: rotate(45deg);
+  margin-left: 1px;
+}
 
 /* 
   /HEADER
