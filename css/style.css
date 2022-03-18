@@ -1,6 +1,9 @@
 /* 
   HEADER
 */
+header{
+  height: 75px;
+}
 
 /* Header Comand */
 .speaker-view,
@@ -10,7 +13,6 @@
   padding: 4px 4px;
   margin: 3px;
   border-radius: 5px;
-  margin-bottom: 40px;
 }
 
 .speaker-view:hover,
@@ -42,9 +44,15 @@
 /* 
   MAIN
 */
+main{
+  overflow: auto;
+  height: 794px;
+}
+
 .picture-container{
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-bottom: 30px;
 }
 
 /* User Picture */
@@ -74,7 +82,10 @@
 /* 
   FOOTER
 */
-
+footer{
+  height: 100px;
+  background-color: aliceblue;
+}
 
 /* 
   /FOOTER
