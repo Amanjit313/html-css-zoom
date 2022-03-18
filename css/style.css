@@ -50,14 +50,13 @@
 /* User Picture */
 .pic-box{
   position: relative;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 /* User Name - Mic */
 .username-mic{
   padding: 7px 7px;
-  background-color: grey;
-  height: 30px;
+  background-color: rgba(120, 120, 120, .8);
   position: absolute;
   bottom: 0;
   color: white;
