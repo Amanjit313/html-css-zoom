@@ -1,8 +1,10 @@
 /* 
   HEADER
 */
-.header-speaker-view,
-.header-invert{
+
+/* Header Comand */
+.speaker-view,
+.invert{
   background-color: #4A4A4A;
   color: white;
   padding: 4px 4px;
@@ -11,23 +13,23 @@
   margin-bottom: 40px;
 }
 
-.header-speaker-view:hover,
-.header-invert:hover{
+.speaker-view:hover,
+.invert:hover{
   background-color: darkgray;
   cursor: pointer;
 }
 
 /* Speaker View */
-.header-speaker-view i{
+.speaker-view i{
   margin-right: 3px;
 }
 
-.header-speaker-view p{
+.speaker-view p{
   font-size: .9rem;
 }
 
 /* Invert */
-.header-invert i{
+.invert i{
   transform: rotate(45deg);
   margin-left: 1px;
 }
@@ -40,7 +42,31 @@
 /* 
   MAIN
 */
+.picture-container{
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
+/* User Picture */
+.pic-box{
+  position: relative;
+  margin-bottom: 20px;
+}
+
+/* User Name - Mic */
+.username-mic{
+  padding: 7px 7px;
+  background-color: grey;
+  height: 30px;
+  position: absolute;
+  bottom: 0;
+  color: white;
+}
+
+.username-mic p{
+  font-size: .9rem;
+  margin-left: 1px;
+}
 
 /* 
   /MAIN

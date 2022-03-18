@@ -19,9 +19,21 @@
   background-color: aquamarine;
 }
 
+/* BOX */
+.pic-box{
+  width: 250px;
+  height: 180px;
+}
+
 /* WIDHT */
 .w90{
   width: 90%;
+  margin: 0 auto;
+}
+
+/* CENTER */
+.center-dx-sx{
+  justify-content: center;
 }
 
 /* FLEX - UTILS */
@@ -29,6 +41,8 @@
   display: flex;
 }
 
-.flex-end{
+.flex-end-dx-sx{
   justify-content: flex-end;
 }
+
+
