@@ -2,7 +2,7 @@
   HEADER
 */
 header{
-  height: 75px;
+  height: 8vh;
 }
 
 /* Header Comand */
@@ -46,7 +46,7 @@ header{
 */
 main{
   overflow: auto;
-  height: 794px;
+  height: 82vh;
 }
 
 .picture-container{
@@ -83,7 +83,7 @@ main{
   FOOTER
 */
 footer{
-  height: 100px;
+  height: 10vh;
   background-color: aliceblue;
 }
 

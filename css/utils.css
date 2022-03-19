@@ -44,8 +44,3 @@
 .flex-end-dx-sx{
   justify-content: flex-end;
 }
-
-/* FIXED */
-.fixed{
-  position: fixed;
-}
