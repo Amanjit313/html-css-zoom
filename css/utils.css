@@ -1,6 +1,6 @@
 /* DEBUG */
 .debug{
-  background-color: antiquewhite;
+  background-color: darkblue;
   border: 1px solid black;
 }
 
@@ -34,6 +34,18 @@
 /* CENTER */
 .center-dx-sx{
   justify-content: center;
+  display: flex;
+}
+
+.center-top-bottom{
+  align-items: center;
+  display: flex;
+}
+
+.center{
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 /* FLEX - UTILS */
@@ -43,4 +55,15 @@
 
 .flex-end-dx-sx{
   justify-content: flex-end;
+}
+
+/* COLOR */
+.white{
+  color: white;
+}
+
+/* SPACE */
+.space10{
+  margin-left: 10px;
+  margin-right: 10px;
 }
